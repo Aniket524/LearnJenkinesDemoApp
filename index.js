@@ -13,7 +13,7 @@ app.get('/hello',(req,res)=>{
     res.send('hello world')
 })
 
-app.get('test',(req,res)=>{
+app.get('/test',(req,res)=>{
     res.send('Jenkies test for webhooks')
 })
 
