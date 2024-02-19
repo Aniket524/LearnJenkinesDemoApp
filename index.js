@@ -17,6 +17,10 @@ app.get('/test',(req,res)=>{
     res.send('Jenkies test for webhooks')
 })
 
+app.get('/finaltest',(req,res)=>{
+    res.send('final test')
+})
+
 app.listen(3001,()=>{
     console.log('app is listening on port 3001')
 })
