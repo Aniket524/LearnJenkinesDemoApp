@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/demo',(req,res)=>{
-    res.send('this is the demo repo')
+    res.send('this is the demo repo page')
 })
 
 app.get('/hello',(req,res)=>{
