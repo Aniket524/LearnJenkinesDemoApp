@@ -18,7 +18,7 @@ app.get('/test',(req,res)=>{
 })
 
 app.get('/finaltest',(req,res)=>{
-    res.send('final test for the pipeline')
+    res.send('final test for the pipeline test')
 })
 
 app.listen(3001,()=>{
